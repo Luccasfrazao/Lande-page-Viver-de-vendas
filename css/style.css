@@ -1,0 +1,1882 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,body{
+    height: 100%;
+
+}
+.center{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+  
+}
+.clear{
+    clear: both;
+}
+
+
+header{
+    height: 90px;
+    padding-bottom: 5px;
+    background-color:#401303 ;
+    border-bottom: 3px solid #F29422;
+    padding: 0 20px;
+
+
+     
+}
+
+header .logo{
+    float: left;
+    background-image: url("../images/Grupo\ 167.png");
+    background-size: contain;
+    margin-top: 28px;
+    height: 40px;
+    width: 300px;
+    padding-left: 4%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+   
+}
+
+header nav.mobile{
+    display: none;
+    float: right;
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 60px;
+  
+background-position: center 10px;
+    height: 66px;
+ 
+    background-size: 50% 30%;
+    background-repeat: no-repeat;    
+    cursor: pointer;
+    background-image: url("../images/Grupo\ 77.png");
+}
+.mobile ul{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    background-color:#270C02;
+    top: 87px;
+    left: 0;
+    display: none;
+}
+
+nav.mobile li{
+    font: 23px;
+    padding: 0 30px;
+    
+    display: block;
+    padding: 15px;
+    background-color:#270C02;
+    border-bottom: 3px solid #F29422;
+    font-size: 12px;
+
+}
+
+nav.mobile li a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+.cadastremobile{
+    height: 31px;
+    width: 120px;
+    font-size: 12px;
+ display: inline-block;
+ padding-top: 7px;
+    background-color:#F29422;
+    margin: 15px;
+    border-radius: 10px;
+
+}
+
+.cadastremobile a{
+    text-decoration: none;
+    color: #401303;
+    font-weight: 800;
+    margin-top: 4px;
+}
+header nav.desktop{
+float: right;
+
+margin-top: 5px;
+
+}
+.desktop ul{
+    list-style-type: none;
+    margin-top: 28px;
+    
+}
+.desktop ul li{
+    float: left;
+
+}
+
+.desktop a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px;
+    font-size: 15px;
+    
+   
+}
+
+.cadastre{
+    float: right;
+    background-color:#F29422;
+    height:40px;
+    position:relative;
+    top:-6px;
+    font-size:20px;
+    border-radius: 15px;
+    padding-top: 4px; 
+    padding-bottom:-3px;
+    
+    
+}
+
+.cadastre a{
+    color: #401303;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* inicio da chamada */
+section.chamada{
+
+    padding: 50px 2%;
+    background-color: #401303;
+}
+.chamada > .logo{
+    height: 150px;
+    width: 40%;
+    padding-bottom: 30px;
+    margin: 0 auto;
+    background-image: url("../images/Grupo\ 172.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.chamada .slogan{
+margin: 0 auto;
+max-width: 800px;
+font-size: 28px;
+padding-top: 40px;
+
+}
+
+.chamada .slogan h2{
+    font-weight: 1000;
+}
+
+
+.chamada .data{
+    margin-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+
+    max-width: 530px;
+    padding: 15px 0;
+    background-color: #F29422;
+    border-radius: 22px;
+    
+}
+
+.data p{
+    color: #401303;
+}
+
+.datacontent{
+    
+    padding-top: 20px;
+}
+
+.slogan-mobile{
+    display: none;
+    max-width: 285px;
+    margin: 0 auto;
+
+}
+
+.slogan-mobile h2{
+    font-size: 24px;
+}
+.slogan-mobile p{
+    text-align: center;
+}
+
+.data2{
+    display: none;
+}
+
+ .datacontent2{
+   background-color: #F29422;
+   margin: 20px auto;
+   text-align: center;
+   font-size: 14px;
+   border-radius: 20px;
+   max-width: 285px;
+   
+}
+ 
+
+
+
+.contato{
+   
+    padding-top: 30px;
+}
+
+
+form{
+    margin: 0 auto;
+    
+    text-align: center; 
+    max-width: 450px;
+    height: 320px;
+    
+    background-color: white;
+    border-radius: 25px;
+}
+
+form input{
+    width: 90%;
+   padding-left: 10px;
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 10px;
+    outline: 0;
+    border: 2px solid#948A86;
+}
+form p:nth-of-type(1){
+    padding-top: 27px;
+    padding-left: 30px;
+}
+
+form p:nth-of-type(2){
+    padding-top: 27px;
+    padding-left: 30px;
+}
+form p{
+    float: left;
+    
+    padding-top: 20px;
+    padding-bottom: 4px;
+}
+
+
+form input:nth-of-type(3){
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color:#4DE97C;
+    color: white;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: 330px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+/* fim da chamada */
+
+
+
+/* inicio dia-aula */
+
+
+section.dia-aula{
+    padding: 60px 0;
+    background-color: #F2D8C2;
+}
+
+section .titulo-aula{
+    text-align: center;
+    color: #401303;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 28px;
+    line-height: 55px;
+    font-weight: 800;
+
+
+}
+
+
+section .titulo-aula h2{
+    font-weight: 900;
+}
+
+section .titulo-aula h2 span{
+    display: block;
+    font-weight: 900;
+
+    
+}
+
+
+
+.line{
+    width: 150px;
+    border: 3px solid #401303;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #401303;
+   
+
+}
+
+
+.aula-geral{
+    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto ;
+    padding-top: 10px;
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.box-aula{
+  
+    width: 40%;
+    height: 300px;
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid #401303;
+
+    margin: 20px 10px ; 
+    color: #401303;
+   
+
+}
+
+.box-aula h3{
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 40px;
+    font-size: 30px;
+    color: #401303;
+}
+
+.box-aula p{
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.box-aula p:nth-of-type(2){
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 0 15px;
+}
+
+/* fim do aulas-dias */
+
+
+
+
+
+/* inicio do perfil */
+
+
+section.perfil{
+    padding: 70px 2%;
+    background-color: #401303;
+    justify-content: center;
+   
+
+}
+
+.titulo-perfil{
+    font-size: 28px;
+    text-align: center;
+  margin: 0 auto;
+    max-width: 500px;
+}
+
+.titulo-perfil > .line{
+    border: 3px solid #F2D8C2;
+    margin-top: 10px;
+    width: 120px;
+}
+
+.perfil-box{
+border: 3px solid white;
+border-radius: 25px;
+margin: 35px auto;
+width: 80%;
+max-width: 800px;
+display: flex;
+padding: 25px 15px; 
+}
+ 
+
+.figurinha{
+width: 20%;
+height: 70px;
+margin: auto;
+background-image: url("../images/Grupo\ 24.png");
+background-size: contain;
+background-position: 80%;
+background-repeat: no-repeat;
+display: flex;
+
+
+
+}
+
+.texto-perfil{
+    
+    display: flex;
+  color: #F2D8C2;
+    margin-left: 10px;
+    width: 80%;
+    font-size: 16px;
+    margin: auto;
+    padding-left: 15px;
+
+ 
+}
+
+
+/* inicio do mentora */
+
+
+section.mentora{
+    padding: 120px 0;
+    background-color: white;
+    
+    
+}
+
+section.mentora > .center{
+    max-width: 1000px;
+}
+
+.wraper-mentora{
+    width: 100%;
+    max-width: 1000px;
+    
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+
+.marly-img{
+    width: 45%;
+    height: 400px;
+   
+    
+}
+
+.foto-marly{
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/Foto\ Marly\ de\ Carvalho.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+}
+
+.sobre-marly{
+    width: 55%;
+    height: 400px;
+ 
+}
+
+.texto-mentora{
+width: 90%;
+height: 100%;
+
+margin-left: 10%;
+}
+
+.texto-mentora span{
+    color: #8D837F;
+    font-weight: 400;
+}
+
+.texto-mentora h2{
+    font-size: 30px;
+    line-height: 30px;
+    color: #401303;
+}
+
+.texto-mentora p{
+    margin-top: 15px;
+    font-size: 16px;
+    text-align: left;
+    color: #80716C;
+    line-height: 25px;
+
+
+
+
+}
+
+.texto-mentora a{
+    text-decoration: none;
+}
+
+.texto-mentora h2:nth-of-type(2){
+    font-size: 26px;
+    margin-top: 60px;
+    display: inline-block;
+    color: #80716C;
+}
+
+
+.texto-mentora .social:nth-of-type(1){
+    width: 45px;
+    height: 45px;
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+
+.texto-mentora .social:nth-of-type(2){
+    width: 40px;
+    height: 40px;
+ 
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 10px;
+    margin-left: 15px;
+}
+
+
+
+
+/* inicio chamada2 */
+
+section.chamada2{
+    padding: 50px 2%;
+    background-color: #401303;
+    text-align: center;
+}
+
+.chamada2 h2{
+    max-width: 630px;
+    margin: 0 auto;
+    font-size: 38px;
+    font-weight: 800;
+    color: #F2D8C2;
+}
+
+.chamada2 .linha{
+    background-color: #F2D8C2;
+    max-width: 150px;
+    border: 2px solid #F2D8C2;
+    height: 5px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+.chamada2 > .logo{
+    max-width: 250px;
+    height: 140px;
+    background-position: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-image: url("../images/Grupo\ 172.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.chamada2 .contato p{
+    color: white;
+    font-size: 12px;
+}
+
+.form span{
+    padding-top: 20px;
+}
+.form span:nth-of-type(1){
+    float: left;
+    padding-left: 27px;
+}
+
+.form span:nth-of-type(2){
+    float: left;
+    padding-left: 28px;
+}
+
+.chamada2 p{
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+footer{
+    padding: 50px 2%;
+    padding-bottom: 20px;
+    background-color: #2C0D02;
+}
+
+.master-footer{
+    max-width: 880px;
+    margin: 0 auto;
+  
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    
+}
+
+.footer1{
+    width: 50%;
+    
+    
+}
+
+.logo-marly{
+    width: 400px;
+    height: 100px;
+  
+    background-image: url("../images/Logo-horizontal-dourado@4x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0 auto ;
+    margin-top: 20px; 
+}
+
+.footer1 p{
+    padding-left: 25px;
+    font-weight: 300;
+    font-size: 14px;
+    color:#F2D8C2;
+}
+
+.footer1 p:nth-of-type(1){
+    margin-top: 30px;
+    color: white;
+}
+
+.footer1 p:nth-of-type(2){
+    margin-top: 30px;
+    color: white;
+    display: block;
+}
+
+.footer1 p:nth-of-type(3){
+    margin-top: 30px;
+    color: white;
+    display: block;
+    text-decoration: underline;
+}
+
+.footer2{
+    width: 50%;
+
+    padding-left: 30px;
+
+
+}
+
+.footer2 h2{
+    color: #F29422;
+    margin-top: 30px;
+}
+
+
+.footer2 p{
+    color: #F2D8C2;
+}
+
+.whatssap{
+    width: 350px;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+.whatssap .rede{
+    width: 70px;
+    height: 50px;
+    background-image: url("../images/Grupo\ 53.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.whatssap > p{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+    margin-left: 10px;
+   font-size: 16px;
+}
+
+.whatssap span{
+    display: block;
+    font-weight: 400;
+}
+
+.email{
+    width: 350px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.email > .rede{
+    width: 70px;
+    height: 50px;
+    background-image: url("../images/Email.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.email p{
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    padding-left: 10px;
+}
+
+
+
+.siga{
+margin-top: 30px;
+max-width: 350px;
+}
+
+.siga p{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8px;
+    font-weight: 300;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    margin-left: 15px;
+    background-image: url("../images/Instagram.png");
+    background-size: contain;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icons:nth-of-type(2){
+    background-image: url("../images/Facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+
+.master-mobile{
+    max-width: 350px;
+    padding: 10px 0;
+    margin: 0 auto;
+    display: none;
+    
+}
+
+.marly-carvalho{
+    width: 100%;
+    height: 60px;
+    background-size: contain;
+    background-image: url("../images/Logo-horizontal-dourado@4x.png");
+    background-repeat: no-repeat;
+}
+
+.sociais{
+max-width: 100%;
+margin-top: 15px;
+
+}
+
+
+.sociais .media{
+    width: 40px;
+    height: 40px;
+    background-image:url("../images/Grupo\ 53.png");
+    background-size: contain;
+}
+
+
+.sociais p{
+    color:#F2D8C2;
+    padding-left: 2px;
+    font-size: 18px;
+}
+
+
+
+.sociais2 p{
+color: blue;
+}
+
+.follow p{
+    display: inline-block;
+    vertical-align: top;
+    margin-top:5px;
+    color: #F2D8C2;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+
+.follow .insta{
+background-image: url("../images/Instagram.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 25px;
+height: 25px;
+display: inline-block;
+margin-left: 20px;
+margin-top: 10px;
+
+}
+
+.follow .face{
+    background-image: url("../images/Facebook.png");
+background-size: contain;
+background-repeat: no-repeat;
+width: 25px;
+height: 25px;
+display: inline-block;
+margin-left: 5px;
+
+}
+
+.textos{
+    width: 100%;
+
+    margin-top: 15px;
+    font-size: 12px;
+    color: #F2D8C2;
+    text-align: center;
+}
+
+.textos p{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (Max-width:960px){
+
+    header .logo{
+        float: left;
+        background-image: url("../images/Grupo\ 167.png");
+       margin-top: 34px;
+        height: 40px;
+        width: 230px;
+        padding-left: 4%;
+       
+       
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:910px){
+    .aula-geral{
+        margin-top: 50px;
+        width: 100%;
+        margin: 0 auto ;
+        padding-top: 10px;
+       
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    .box-aula{
+      
+        width: 60%;
+        height: 300px;
+        position: relative;
+        border-radius: 50px;
+        border: 2px solid #401303;
+    
+        margin: 20px 10px ; 
+        color: #401303;
+       
+    
+    }
+    
+    .box-aula h3{
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 40px;
+        font-size: 30px;
+        color: #401303;
+    }
+    
+    .box-aula p{
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .box-aula p:nth-of-type(2){
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    
+    
+
+
+
+}
+
+
+
+@media screen and (max-width:880px){
+    header .logo{
+      
+        margin-top: 35px;
+        height: 40px;
+        width: 210px;
+       
+       
+    }
+    
+
+    .desktop a{
+        text-decoration:none;
+        color: white;
+        padding: 0 20px;
+        font-size: 12px;
+
+    }
+
+    .cadastre{
+        float: right;
+        background-color:#F29422;
+        height:40px;
+        position:relative;
+        top:-6px;
+        font-size:20px;
+        border-radius: 15px;
+        padding-top: 5px; 
+        padding-bottom:-3px;
+        }
+    
+    .cadastre a{
+        color: #401303;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .chamada .slogan{
+        font-size: 21px;
+    }
+    
+
+}
+
+
+
+
+@media screen and (max-width:880px){
+
+
+    .desktop a{
+        text-decoration: none;
+        color: white;
+        padding: 0 20px;
+        font-size: 12px;
+   
+    }
+
+    .cadastre{
+        float: right;
+        background-color:#F29422;
+        height:40px;
+        position:relative;
+        top:-6px;
+        font-size:20px;
+        border-radius: 15px;
+        padding-top: 5px; 
+        padding-bottom:-3px;
+        }
+    
+    .cadastre a{
+        color: #401303;
+        font-weight: bold;
+        font-size: 18px;
+    }
+    
+    .chamada .slogan{
+        font-size: 21px;
+    }
+    
+
+    section.mentora{
+        padding: 50px 0;
+        padding-bottom: 40px;
+    }
+
+    .wraper-mentora{
+        width: 100%;
+        max-width: 1000px;
+       
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    
+    .marly-img{
+        width: 100%;
+        height: 500px;
+        max-width: 500px;
+        display: block;
+       
+        margin: 0 auto;
+        
+    }
+    
+    .foto-marly{
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/Foto\ Marly\ de\ Carvalho.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+    }
+    
+    .sobre-marly{
+        width: 100%;
+        max-width: 480px;
+        height: 400px;
+       
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+
+    .texto-mentora{
+    width: 100%;
+    height: 100%;
+  
+    margin: 0 auto;
+    padding: 20px 20px;
+    }
+    
+    .texto-mentora span{
+        color: #8D837F;
+        font-weight: 400;
+    }
+    
+    .texto-mentora h2{
+        font-size: 30px;
+        line-height: 30px;
+        color: #401303;
+    }
+    
+    .texto-mentora p{
+        margin-top: 15px;
+        font-size: 16px;
+        text-align: left;
+    
+    
+    
+    
+    }
+    
+    .texto-mentora h2:nth-of-type(2){
+        font-size: 26px;
+        margin-top: 30px;
+        display: inline-block;
+        color: #80716C;
+    }
+    
+    .texto-mentora .social:nth-of-type(1){
+        width: 45px;
+        height: 45px;
+        background-image: url("../images/Grupo\ 50.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        margin-left: 15px;
+    }
+    
+    
+    .texto-mentora .social:nth-of-type(2){
+        width: 40px;
+        height: 40px;
+        background-image: url("../images/Grupo\ 51.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        margin-left: 15px;
+    }
+    
+    
+
+
+
+}
+
+
+
+
+@media screen and (max-width:800px){
+
+   
+
+
+nav.desktop{
+    display: none;
+}
+
+header nav.mobile{
+     display: block; 
+   
+}
+
+
+.master-footer{
+    max-width: 880px;
+    margin: 0 auto;
+ 
+    display: flex;
+    max-height: 500px;
+    flex-wrap: wrap;
+    
+}
+
+.footer1{
+    width: 50%;
+   
+    
+}
+
+.logo-marly{
+    width: 250px;
+    height: 100px;
+  
+    background-image: url("../images/Logo-horizontal-dourado@4x.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:0 ;
+    margin-top: 20px; 
+}
+
+.footer1 p{
+    padding-left: 0px;
+    font-weight: 300;
+    font-size: 12px;
+    color:#F2D8C2;
+}
+
+.footer1 p:nth-of-type(1){
+    margin-top: 30px;
+    color: white;
+}
+
+.footer1 p:nth-of-type(2){
+    margin-top: 30px;
+    color: white;
+    display: block;
+}
+
+.footer1 p:nth-of-type(3){
+    margin-top: 30px;
+    color: white;
+    display: block;
+    text-decoration: underline;
+}
+
+.footer2{
+    width: 50%;
+  
+    padding-left: 15px;
+
+
+}
+
+.footer2 h2{
+    color: #F29422;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+
+.footer2 p{
+    color: #F2D8C2;
+    
+}
+
+.whatssap{
+    width: 250px;
+    margin-top: 25px;
+  
+    font-size: 20px;
+}
+
+.whatssap .rede{
+    width: 50px;
+    height: 50px;
+ 
+    background-image: url("../images/Grupo\ 53.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.whatssap > p{
+    display: inline-block;
+    vertical-align: top;
+  
+    font-weight: 700;
+    margin-left: 3px;
+   font-size: 12px;
+}
+
+.whatssap span{
+    display: block;
+    font-weight: 400;
+}
+
+.email{
+    width: 260px;
+    margin-top: 30px;
+   
+    font-size: 12px;
+}
+
+.email > .rede{
+    width: 50px;
+    height: 50px;
+  
+    background-image: url("../images/Email.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+.email p{
+    font-size: 12px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 12px;
+    padding-left: 3px;
+}
+
+
+
+.siga{
+margin-top: 30px;
+
+max-width: 270px;
+}
+
+.siga p{
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8px;
+    font-weight: 300;
+}
+.icons{
+    width: 30px;
+    height: 30px;
+    background-image: url("../images/Instagram.png");
+    
+    background-size: contain;
+    display: inline-block;
+}
+
+.icons:nth-of-type(2){
+    background-image: url("../images/Facebook.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+}
+
+
+
+
+
+}
+
+
+@media screen and (max-width:605px){
+   
+
+
+
+   
+    .aula-geral{
+        margin-top: 50px;
+        width: 100%;
+        margin: 0 auto ;
+        padding-top: 10px;
+     
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    
+    
+    
+    .box-aula{
+      
+        width: 60%;
+        height: 300px;
+        position: relative;
+        border-radius: 50px;
+        border: 2px solid #401303;
+    
+        margin: 20px 10px ; 
+        color: #401303;
+       
+    
+    }
+    
+    .box-aula h3{
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 40px;
+        font-size: 25px;
+        color: #401303;
+    }
+    
+    .box-aula p{
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    
+    .box-aula p:nth-of-type(2){
+        margin-top: 20px;
+        font-size: 14px;
+        padding: 0 15px;
+    }
+    
+    
+
+    .master-footer{
+     display: none;
+        
+    }
+
+    .master-mobile{
+        display: block;
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media screen and (max-width:575px){
+
+    header .logo{
+        height: 40px;
+        width: 200px;
+    }
+    
+
+
+    .chamada{
+        padding: 20px;
+    }
+
+
+    .chamada > .logo{
+        
+        margin-bottom: 15px;
+      
+    }
+
+    .chamada .slogan h2{
+        font-size: 40px;
+        font-weight: 1000;
+    }
+
+   
+   
+    .slogan{
+       display: none;
+   }
+
+   .slogan-mobile{
+    display: block;
+    margin-top: 20px;
+}
+
+
+.slogan-mobile h2{
+    font-weight: 800;
+}
+.datacontent2{
+    height: 35px;
+    padding-top: 7px;
+}
+
+.data2{
+    display: block;
+    
+}
+
+.contato{
+   
+    padding-top: 25px;
+}
+
+
+form{
+    margin: 0 auto;
+    
+    text-align: center; 
+    max-width: 300px;
+    height: 240px;
+    
+    background-color: white;
+    border-radius: 25px;
+}
+
+form input{
+    width: 80%;
+   padding-left: 12px;
+    display: block;
+    margin: 0 auto;
+    height: 40px;
+    border-radius: 10px;
+    outline: 0;
+    border: 2px solid#948A86;
+}
+form p:nth-of-type(1){
+    padding-top: 20px;
+    padding-left: 35px;
+}
+
+form p:nth-of-type(2){
+    padding-top: 15px;
+    padding-left: 35px;
+}
+form p{
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    font-size: 12px;
+    font-weight: 800;
+    color: #401303;
+}
+
+
+form input:nth-of-type(3){
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color:#4DE97C ;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: bold;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 0;
+}
+
+form span:nth-of-type(1){
+    font-size: 12px;
+    font-weight: 800;
+    color: #401303;
+}
+
+form span:nth-of-type(2){
+    font-size: 12px;
+    font-weight: 800;
+    color: #401303;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+section .titulo-aula{
+    text-align: center;
+    color: #401303;
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 55px;
+    font-weight: 800;
+
+
+}
+
+
+.aula-geral{
+    margin-top: 50px;
+    width: 100%;
+    margin: 0 auto ;
+    padding-top: 10px;
+     
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+.box-aula{
+  
+    width: 90%;
+    height: 220px;
+    position: relative;
+    border-radius: 50px;
+    border: 2px solid #401303;
+
+    margin: 20px 10px ; 
+    color: #401303;
+   
+
+}
+
+.box-aula h3{
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 30px;
+    font-size: 22px;
+    color: #401303;
+}
+
+.box-aula p{
+    text-align: left;
+    padding-left: 15px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.box-aula p:nth-of-type(2){
+    margin-top: 10px;
+    font-size: 12px;
+    padding: 0 15px;
+}
+
+
+
+.titulo-perfil{
+    font-size: 28px;
+    text-align: center;
+  margin: 0 auto;
+    max-width: 400px;
+   
+}
+        
+
+.titulo-perfil span{
+    display: block;
+}
+.titulo-perfil h2{
+    font-size: 28px;
+}
+
+
+.perfil-box{
+    border: 3px solid white;
+    border-radius: 25px;
+    margin: 35px auto;
+    width: 80%;
+    max-width: 800px;
+    display: flex;
+    padding: 5px 5px; 
+    }
+     
+    
+    .figurinha{
+    width: 15%;
+    height: 100px;
+    margin: auto;
+    background-image: url("../images/Grupo\ 24.png");
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    display: flex;
+
+    
+    
+    }
+    
+    .texto-perfil{
+        display: inline-block;
+        display: flex;
+      color: #F2D8C2;
+        margin-left: 0px;
+        width: 80%;
+        font-size: 12px;
+        
+        margin: auto;
+        padding-left: 0px;
+        max-width: 630px;
+       
+    }
+      
+
+    .chamada2 h2{
+        max-width: 360px;
+        margin: 0 auto;
+        font-size: 24px;
+        font-weight: 1000;
+        color: #F2D8C2;
+    }
+    
+    .chamada2 .linha{
+        background-color: #F2D8C2;
+        max-width: 90px;
+        border: 2px solid #F2D8C2;
+        height: 5px;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    
+    
+    .chamada2 > .logo{
+        max-width: 230px;
+        height: 140px;
+        background-position: center;
+        margin: 0 auto;
+        margin-top: 30px;
+        background-image: url("../images/Grupo\ 172.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+
+
+    
+}
+
+
+
+
+@media screen and (max-width:490px){
+
+    .wraper-mentora{
+        width: 100%;
+        max-width: 1000px;
+       
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    
+    .marly-img{
+        width: 100%;
+        height: 360px;
+        max-width: 320px;
+        display: block;
+  
+        margin: 0 auto;
+        
+    }
+    
+    .foto-marly{
+        width: 100%;
+        height: 100%;
+        background-image: url("../images/Foto\ Marly\ de\ Carvalho.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+    }
+    
+    .sobre-marly{
+        width: 100%;
+        max-width: 320px;
+        height: 350px;
+    
+        display: block;
+        margin: 0 auto;
+        
+    }
+    
+    .texto-mentora{
+    width: 100%;
+    height: 100%;
+  
+    margin: 10px auto;
+    padding: 0px 5px;
+    }
+    
+    .texto-mentora span{
+        color: #8D837F;
+        font-weight: 400;
+        font-size: 13px;
+        }
+    
+    .texto-mentora h2{
+        font-size: 27px;
+        line-height: 30px;
+        color: #401303;
+    }
+    
+    .texto-mentora p{
+        margin-top: 5px;
+        font-size: 12px;
+        text-align: left;
+
+    
+    
+    
+    
+    }
+    
+    .texto-mentora h2:nth-of-type(2){
+        font-size: 20px;
+        margin-top: 30px;
+        display: inline-block;
+        color: #80716C;
+    }
+    
+    .texto-mentora .social:nth-of-type(1){
+        width: 30px;
+        height: 30px;
+        background-image: url("../images/Grupo\ 50.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        margin-left: 15px;
+    }
+    
+    
+    .texto-mentora .social:nth-of-type(2){
+        width: 30px;
+        height: 30px;
+        background-image: url("../images/Grupo\ 51.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: inline-block;
+        position: relative;
+        top: 10px;
+        margin-left: 15px;
+    }
+    
+
+
+}
+
+@media screen and (max-width:390px){
+   header{
+       height: 80px;
+   }
+   
+    header .logo{
+        float: left;
+        
+        margin-top: 35px;
+        height: 50px;
+        width: 180px;
+       
+       
+    }
+    
+
+}
+
+
